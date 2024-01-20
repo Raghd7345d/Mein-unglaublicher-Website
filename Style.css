@@ -1,37 +1,33 @@
-body {
-  font-family: Arial;
-  color: #000000;
-  padding-top: 200px;
-}
-
 header {
+  position: sticky;
+  top: 0;
+  /*z-index: 10;*/
   background-position: bottom;
   background-image: url(Original-Bild-Geld-sparen.jpg);
-  background-color: rgba(255, 255, 255, 0.5);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  position: fixed;
-  top: 0;
-  height: 160px;
   padding: 0px;
-  margin: 5px;
+  margin: 10px;
   box-shadow: 5px 5px 5px gray;
 }
 header h1 {
   text-align: center;
+}
+body {
+  font-family: Arial;
+  color: #000000;
 }
 p {
   font-size: medium;
   line-height: 30px;
 }
 section {
-  display: flex;
   width: 95%;
   margin: 0 auto 150px auto;
   padding: 25px;
   box-shadow: 0px 0px 8px 1px black;
-  position: relative;
+  /*position: relative;*/
   justify-content: space-between;
 }
 nav li {
