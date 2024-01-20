@@ -9,7 +9,7 @@ header {
   top: 0;
   height: 160px;
   padding: 0px;
-  margin: 5px;
+  margin: 10px;
   box-shadow: 5px 5px 5px gray;
 }
 
@@ -51,7 +51,6 @@ p {
   line-height: 30px;
 }
 section {
-  display: flex;
   width: 95%;
   margin: 0 auto 150px auto;
   padding: 25px;
