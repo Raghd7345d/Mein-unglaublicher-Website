@@ -1,0 +1,8 @@
+.budget-form {
+  margin-top: 50px;
+}
+input {
+  border-radius: 5px;
+  color: black;
+  background-color: palevioletred;
+}
